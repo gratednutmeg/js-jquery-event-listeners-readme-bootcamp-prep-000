@@ -12,7 +12,7 @@ function frameIt() {
 };
 
 function pressIt() {
-  $('#typing').on('keydown', function(k) {
+  $('#typing').on('keydown', function(key) {
     if (k.keyCode === 71) {
       alert(`g`);
     }
